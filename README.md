@@ -1,6 +1,6 @@
 # Temporary Repo For Auditing (Open Source) Tokens
 
-## Initial Submission 2017-05-23
+## Initial Submission 2018-05-23
 Token code is outdated and was taken from https://github.com/ConsenSys/Token-Factory/tree/master/contracts
 ### Issues
 - No compiler version specified.
