@@ -15,6 +15,7 @@ Token code is outdated and was taken from https://github.com/ConsenSys/Token-Fac
   1. Wait for that transaction to be mined
   1. Set new approval
 - May be vulnerable to underflow/overflow attacks if supply is not capped
+- Code from `approve` duplicated in `approveAndCall`. Call `approve` instead!
 - Fragile self-built call in [HumanStandardToken](contracts/HumanStandardToken.sol#57). Why do this in the first place? What's the called function supposed to do? Import the contract's interface instead!
 
 ## Recommendation
